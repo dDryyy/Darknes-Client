@@ -1,7 +1,6 @@
-package dev.MrBlackReal.discord;
+package de.darknes;
 
 import de.darknes.Darknes;
-import dev.MrBlackReal.main.EXPOSE;
 import net.arikia.dev.drpc.DiscordEventHandlers;
 import net.arikia.dev.drpc.DiscordEventHandlers.Builder;
 import net.arikia.dev.drpc.DiscordRPC;
@@ -27,7 +26,7 @@ public class DiscordRP {
 			}
 		}).build();
 		
-		DiscordRPC.discordInitialize("EURE DISCORD APPLICATION ID", handlers, true);
+		DiscordRPC.discordInitialize("798451222310420530", handlers, true);
 		
 		new Thread("RPC Callback") {
 			public void run() {
